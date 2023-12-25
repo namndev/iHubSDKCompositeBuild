@@ -13,7 +13,7 @@ More details on the [Stackoverflow question](https://stackoverflow.com/questions
 
 
 ### Directions
-We take advantage of [Gradle's Composite Builds](https://docs.gradle.org/current/userguide/composite_builds.html) to import Spotify Remote SDK as a normal dependency.
+We take advantage of [Gradle's Composite Builds](https://docs.gradle.org/current/userguide/composite_builds.html) to import iHub Remote SDK as a normal dependency.
 
 
 1. Create a folder eg. `eidscan-remote` at the same level of `app` folder
