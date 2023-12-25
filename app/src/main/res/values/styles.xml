@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="InputLabel" parent="TextAppearance.AppCompat.Small">
+        <item name="android:paddingBottom">@dimen/input_label_padding_bottom</item>
+        <item name="android:paddingLeft">@dimen/input_label_horizontal_spacing</item>
+        <item name="android:paddingRight">@dimen/input_label_horizontal_spacing</item>
+    </style>
+
+    <style name="ToogleGroup">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/toggle_height</item>
+        <item name="android:background">@drawable/toggle_background_border</item>
+    </style>
+
+    <style name="CardViewStyle">
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="cardCornerRadius">0dp</item>
+        <item name="android:layout_marginLeft">@dimen/margin_zero</item>
+        <item name="android:layout_marginRight">@dimen/margin_zero</item>
+        <item name="android:elevation">2dp</item>
+    </style>
+
+    <style name="Text">
+    </style>
+
+    <style name="Text.SubHead">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:fontFamily">@font/regular</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Text.Body3">
+        <item name="android:fontFamily">@font/regular</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@color/grey_mid</item>
+        <item name="android:lineSpacingExtra">0sp</item>
+    </style>
+</resources>

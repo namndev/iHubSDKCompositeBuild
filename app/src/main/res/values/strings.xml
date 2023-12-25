@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">EidReader</string>
+
+    <string name="doc_dob">Ngày sinh: %1s</string>
+    <string name="doc_expiry">Hết hạn: %1s</string>
+    <string name="doc_number">Số CCCD: %1s</string>
+    <string name="label_eid">Thông tin căn cước</string>
+    <string name="warning_no_nfc">Không có NFC trên thiết bị này</string>
+    <string name="warning_enable_nfc">Cần kích hoạt NFC</string>
+
+    <string name="selection_title">Data Entry</string>
+    <string name="selection_manual">Manual</string>
+    <string name="selection_automatic">Automatic</string>
+    <string name="warning_authentication_failed">Authentication has failed! Please try to scan the document again or introduce the data manually.</string>
+    <string name="warning_cla_not_supported">Impossible to read the document. EID doesn\'t support CLA .</string>
+    <string name="prompt_document_number">Document Number</string>
+    <string name="prompt_document_expiration">Document Expiration (yymmdd)</string>
+    <string name="prompt_document_date_of_birth">Date of Birth (yymmdd)</string>
+
+    <string name="read_nfc">READ NFC</string>
+    <string name="fast_test">Fast Test</string>
+    <string name="delete_csca">Delete CSCA Master List</string>
+
+    <string name="label_authentication">Authentication</string>
+    <string name="label_authentication_bac">BAC</string>
+    <string name="label_authentication_pace">PACE</string>
+    <string name="label_authentication_chip">Chip</string>
+    <string name="label_authentication_passive">Passive</string>
+    <string name="label_authentication_active">Active</string>
+    <string name="label_authentication_eac">EAC</string>
+    <string name="label_authentication_document_signing">Document Signing</string>
+    <string name="label_authentication_country_signing">CSCA</string>
+    <string name="vehicle_owner_details">Vehicle Owner Details</string>
+
+    <string name="label_document_number">Document Number</string>
+    <string name="label_document_expiry">Expiration Date</string>
+    <string name="label_document_issued">Issuing Date</string>
+    <string name="label_document_issuing_state">Issuing State</string>
+    <string name="label_document_nationality">Nationality</string>
+    <string name="label_passport">Passport</string>
+    <string name="label_not_available">NA</string>
+
+    <string name="label_additional_information">Additional person information</string>
+    <string name="label_additional_information_custody">Custody</string>
+    <string name="label_additional_information_dob">Date of birth</string>
+    <string name="label_additional_information_other_names">Other names</string>
+    <string name="label_additional_information_other_valid_td_numbers">Other Td numbers</string>
+    <string name="label_additional_information_permanent_address">Permanent address</string>
+    <string name="label_additional_information_personal_number">Personal number</string>
+    <string name="label_additional_information_personal_summary">Personal summary</string>
+    <string name="label_additional_information_place_of_birth">Place of birth</string>
+    <string name="label_additional_information_profession">Profession</string>
+    <string name="label_additional_information_telephone">Telephone</string>
+    <string name="label_additional_information_title">Title</string>
+
+    <string name="label_document_signing_certificate">Document Signing Certificate</string>
+    <string name="label_country_signing_certificate">Country Signing Certificate</string>
+    <string name="label_certificate_serial_number">Serial number</string>
+    <string name="label_certificate_public_key_algorithm">Public key algorithm</string>
+    <string name="label_certificate_signature_algorithm">Signature algorithm</string>
+    <string name="label_certificate_thumbprint">Certificate thumbprint</string>
+    <string name="label_certificate_issuer">Issuer</string>
+    <string name="label_certificate_subject">Subject</string>
+    <string name="label_certificate_valid_from">Valid from</string>
+    <string name="label_certificate_valid_to">Valid to</string>
+
+    <string name="document_valid_passport">Valid passport</string>
+    <string name="document_invalid_passport">Invalid Passport</string>
+    <string name="document_unknown_passport_title">Unknown Passport</string>
+    <string name="document_chip_content_success">The passport chip and content are valid</string>
+    <string name="document_content_success">The passport content is valid</string>
+    <string name="document_chip_failure">The passport chip is invalid</string>
+    <string name="document_document_failure">The passport document information is invalid</string>
+    <string name="document_csca_failure">The CSCA information is invalid</string>
+    <string name="document_unknown_passport_message">Unable to authenticate the passport</string>
+
+    <string name="label_additional_document_information">Additional document information</string>
+    <string name="label_additional_document_information_endorsements_and_observations">Observations</string>
+    <string name="label_additional_document_information_date_and_time_of_personalization">Date personalization</string>
+    <string name="label_additional_document_information_date_of_issue">Date issue</string>
+    <string name="label_additional_document_information_image_front">Image front</string>
+    <string name="label_additional_document_information_image_rear">Image rear</string>
+    <string name="label_additional_document_information_issuing_authority">Issuing authority</string>
+    <string name="label_additional_document_information_names_of_other_persons">Names of other persons</string>
+    <string name="label_additional_document_information_personalization_system_serial_number">System serial number</string>
+    <string name="label_additional_document_information_tax_or_exit_requirements">Tax or exit requirements</string>
+
+    <string name="status_bar_ocr">Document Number: %1s Date of Birth: %2s Expiration Date: %3s</string>
+    <string name="status_bar_success">OCR Detected - Time required: %2dms</string>
+    <string name="status_bar_failure">OCR Read failure - Time required: %1d ms</string>
+
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="instruction_mrz_code">Dùng Camera để scan MRZ Code - chuỗi ký tự mặt sau thẻ CCCD gắn chip ở phía dưới.</string>
+    <string name="step_1_scan_mrz">Bước 1: Quét mã MRZ</string>
+    <string name="step_2_scan_nfc">Bước 2: Đọc NFC</string>
+    <string name="step_3_scan_nfc">Bước 3: Phát hiện người thật</string>
+    <string name="ok">OK</string>
+
+    <string name="nfc_title">Đặt thiết bị lên thẻ CCCD và không di chuyển</string>
+    <string name="document_valid_eid">Valid EID</string>
+    <string name="label_genuinity">Toàn vẹn dữ liệu (A-System Requirements)</string>
+    <string name="label_verification">Xác thực</string>
+    <string name="label_authentication_cert_verification">RAR Certificate Verification</string>
+    <string name="label_authentication_signature_verification">RAR Signature Verification</string>
+    <string name="father_name">Tên bố</string>
+    <string name="mother_name">Tên mẹ</string>
+    <string name="old_id_card">Số CMND</string>
+    <string name="unk_id_number">UNK ID Number</string>
+    <string name="unk_info">UNK Info</string>
+    <string name="personal_info">Thông tin cá nhân</string>
+    <string name="citizen_id">Số CCCD</string>
+    <string name="full_name">Họ và tên</string>
+    <string name="dob">Ngày sinh</string>
+    <string name="gender">Giới tính</string>
+    <string name="nationality">Quốc tịch</string>
+    <string name="ethnicity">Dân tộc</string>
+    <string name="religion">Tôn giáo</string>
+    <string name="place_of_origin">Quê quán</string>
+    <string name="place_of_residence">Thường trú</string>
+    <string name="personal_identification">Đặc điểm nhận dạng</string>
+    <string name="issue_date">Ngày cấp</string>
+    <string name="expiry_date">Có giá trị đến</string>
+</resources>
