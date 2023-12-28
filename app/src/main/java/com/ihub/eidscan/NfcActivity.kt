@@ -33,7 +33,7 @@ class NfcActivity : AppCompatActivity(), NfcListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_nfc)
-        HubService.getInstance().init("http://171.244.60.91:8080","<api-key>")
+        HubService.getInstance().init("<BaseUrl>","<api-key>", "<CUS_CODE>")
         if (intent.hasExtra(IntentData.KEY_MRZ_INFO)) {
             mrzInfo = intent.getSerializable(IntentData.KEY_MRZ_INFO, MRZInfo::class.java)
         } else {
